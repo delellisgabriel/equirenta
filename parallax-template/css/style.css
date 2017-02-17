@@ -1,0 +1,191 @@
+/* Custom Stylesheet */
+/**
+ *
+ *
+ *
+ * Diseñado por Gabriel De Lellis & Mariano Rodriguez en MaterializeCSS
+ */
+
+/*bóton para ir al principio de la página*/
+.scrollToTop {
+  width: 45px; 
+  height: 45px;
+  border-radius: 50%;
+  padding:10px; 
+  text-align:center; 
+  background: rgba(68, 68, 68, 0.7);
+  font-weight: bold;
+  color: whitesmoke;
+  text-decoration: none;
+  position:fixed;
+  top:90vh;
+  right:10px;
+  display:none;
+  z-index: 100;
+  font-size: 1.5em;
+}
+.scrollToTop:hover {
+  text-decoration:none;
+}
+
+
+/*REDES SOCIALES*/
+@media only screen and (min-width: 993px) {
+
+  #sticky-social {
+     left: 0px;
+     position: fixed;
+     top: 40vh;
+     z-index: 100;
+  }
+  #sticky-social a {
+     background: #333;
+     color: #fff;
+     display: block;
+     height: 35px;
+     font: 18px "Open Sans", sans-serif;
+     line-height: 42px;
+     position: relative;
+     text-align: center;
+     width: 35px;
+  }
+  #sticky-social a span {
+     line-height: 35px;
+     left: -120px;
+     position: absolute;
+     text-align:center;
+     width:120px;
+     background-color: red;
+     transition: .8s;
+     -webkit-transition: .8s;
+     -moz-transition: .8s;
+     -ms-transition: .8s;
+     -o-transition: .8s;
+     z-index: -1;
+  }
+}
+
+#sticky-social a:hover span {
+   left: 100%;
+}
+#sticky-social a[class*="facebook"],
+#sticky-social a[class*="facebook"]:hover,
+#sticky-social a[class*="facebook"] span { background: #3b5998; }
+
+#sticky-social a[class*="twitter"],
+#sticky-social a[class*="twitter"]:hover,
+#sticky-social a[class*="twitter"] span { background: #1da1f2; }
+
+#sticky-social a[class*="youtube"],
+#sticky-social a[class*="youtube"]:hover,
+#sticky-social a[class*="youtube"] span { background: #cd201f; }  
+
+#sticky-social a[class*="google"],
+#sticky-social a[class*="google"]:hover,
+#sticky-social a[class*="google"] span { background: #dd4b39; }  
+
+#sticky-social a[class*="instagram"],
+#sticky-social a[class*="instagram"]:hover,
+#sticky-social a[class*="instagram"] span { background: #c13584; }  
+
+/**/
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-justify-collapsible {
+  text-align: justify;
+  background-color: white;
+}
+
+.page-footer-2 {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+.titulos-contacto {
+  font-family: 'Lato', sans-serif;
+
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+.parallaxOscu {
+   -webkit-filter: grayscale(55%);
+}
+
+.carousel {
+  margin: 0;
+  margin-top: -150px;
+  margin-bottom: -80px;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: whitesmoke;
+  /*color: #444;*/
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: whitesmoke;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (min-width: 993px) {
+  .parallax-container { 
+    min-height: 93vh;
+  }
+
+  .hdr1 {
+    margin-top: 30vh;
+  }
+
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  z-index: 300;
+  margin: 0;
+  margin-top: -55px;
+}

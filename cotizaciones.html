@@ -1,0 +1,198 @@
+<!-- Head -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>Equi Renta | Cotizaciones</title>
+
+  <!-- CSS  -->
+  <link href="https://file.myfontastic.com/kjfhJNGDBYyqhrbbvPuAPj/icons.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+  <!-- ScrollToTop Button -->
+  <a href="#" class="scrollToTop"><i class="icon-arrow-up"></i></a>
+<!-- REDES SOCIALES -->
+<div id="sticky-social" class="hide-on-med-and-down">
+    <ul id="esconder-elemento">
+        <li><a href="#" class="icon-facebook"     target="_blank"><span>Facebook</span> </a></li>
+        <li><a href="#" class="icon-twitter"      target="_blank"><span>Twitter</span>  </a></li>
+        <li><a href="#" class="icon-instagram"    target="_blank"><span>Instagram</span></a></li>
+        <li><a href="#" class="icon-youtube-play" target="_blank"><span>Youtube</span>  </a></li>
+        <li><a href="#" class="icon-google-plus"  target="_blank"><span>Google+</span>  </a></li>
+    </ul>
+</div>
+
+
+<!-- NAVBAR -->
+  <div class="navbar-fixed hide-on-med-and-down">
+    <nav class="blue-grey darken-4" role="navigation">
+      <div class="nav-wrapper container">
+      <a id="logo-container" href="index.html" class="brand-logo flow-text">EQUI RENTA</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="contacto.html">Contáctanos</a></li>
+          <li><a href="#">Sobre Nosotros</a></li>
+          <li><a href="cotizaciones.html" class="btn waves-effect orange darken-3">Solicitar Cotización</a></li>
+        </ul>
+      </div>
+    </nav>   
+  </div>
+  <nav class="blue-grey darken-4 hide-on-large-only" role="navigation">
+      <a id="logo-container" href="index.html" class="brand-logo flow-text">EQUI-RENTA</a>
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="index.html">Productos</a></li>
+        <li><a href="contacto.html">Contáctanos</a></li>
+        <li><a href="#">Sobre Nosotros</a></li>
+        <li><a href="cotizaciones.html" class="btn waves-effect orange darken-3">Solicitar Cotización</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+  </nav>
+<!-- Fin del header -->
+    <br>
+<div class="container">
+  <h4 class="flow-text center-align">Pida su cotización aquí</h4>
+  <form action="">
+          <!-- Fila cero -->
+    <div class="input-field col s12 m12 l12">
+      <i class="material-icons prefix">perm_identity</i>
+      <input id="nombre" type="text" class="validate" required>
+      <label for="first_name">Nombre y Apellido <span style="color: #f44336;">*</span></label>
+    </div>
+    <div class="row">
+          <!-- Primera Fila -->
+      <div class="input-field col s12 m6 l6">
+        <i class="material-icons prefix">business</i>
+        <input id="compania" type="text" class="validate">
+        <label for="company">Compañía</label>
+      </div>
+      <div class="input-field col s12 m6 l6">
+        <i class="material-icons prefix">work</i>
+        <input id="job" type="text" class="validate">
+        <label for="job">Cargo</label>
+      </div>  
+    <!-- Segunda Fila -->
+      <div class="input-field col s6 m6 l6">
+        <i class="material-icons prefix">email</i>
+        <input id="email" type="email" class="validate" required>
+        <label for="email">Correo <span style="color: #f44336;">*</span></label>
+      </div>
+      <div class="input-field col s6 m6 l6">
+        <i class="material-icons prefix">call</i>
+        <input id="telf" type="email" class="validate">
+        <label for="telf">Teléfono</label>
+      </div>
+
+
+      <div class="col s6 m6">
+      <h5 class="flow-text center-align">Tipo de Obra</h5>
+
+            <p class="col s12 m6 center-align">
+              <input type="checkbox" id="test5" />
+              <label for="test5">Construcción</label>
+            </p>
+            <p class="col s12 m6 center-align">
+              <input type="checkbox" id="test6" />
+              <label for="test6">Remodelación</label>
+            </p>
+      </div>
+
+      <div class="col s6 m6">
+      <h5 class="flow-text center-align">Fecha tentativa de alquiler</h5>
+        <div class="col s12 m6 center-align">
+          <label for="desde" class="active">Desde</label>
+          <input id="desde"type="date" class="datepicker">
+        </div>
+        <div class="col s12 m6 center-align">
+          <label for="desde" class="active">Hasta</label>
+          <input id="hasta"type="date" class="datepicker">
+        </div>
+      </div>
+
+      <div class="row">
+      <br><br><br>
+          <div class="col s12 m12 l12">
+            <div class="input-field col s12 m12 l12">
+                  <i class="material-icons prefix">mode_edit</i>
+                  <input id="mensaje" type="text" class="validate" required>
+                  <label for="mensaje">Mensaje <span style="color: #f44336;">*</span></label>
+                </div>
+              </div>
+            <div class="col s12 m12 center-align">
+              <button class="btn waves-effect waves-light" type="submit" name="action">Enviar
+                <i class="material-icons right">send</i>
+              </button>
+            </div>
+      </div>  
+    </div>
+  </form>
+</div>
+
+<br><br><br>
+
+
+
+
+
+<!-- Footer -->
+
+  <footer class="page-footer blue-grey">
+    <div class="container">
+      <div class="row">
+        <div class="col l1 hide-on-med-and-down"></div>
+        <div class="col l2 center-align hide-on-med-and-down">
+          <br>
+          <img src="equirenta-logo.png" alt="" class="responsive-img">
+          <h6 class="white-text">Equi Renta S.R.L</h6>
+        </div>
+        <div class="col l1 hide-on-med-and-down"></div>
+        <div class="col l4 center-align hide-on-med-and-down">
+          <h5 class="white-text">Productos</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Pala Cargadora</a></li>
+            <li><a class="white-text" href="#!">Monta Cargas</a></li>
+            <li><a class="white-text" href="#!">Amoladora</a></li>
+            <li><a class="white-text" href="#!">Planta Eléctrica</a></li>
+            <li><a class="white-text" href="#!">Andamio</a></li>
+          </ul>
+        </div>
+        <div class="col m12 l4 s12 center-align">
+          <h5 class="white-text">Síguenos en:</h5>
+            <a href="#" class="icon-button facebook"    target="_blank"><i class="icon-facebook"></i><span></span></a>
+            <a href="#" class="icon-button twitter"     target="_blank"><i class="icon-twitter"></i><span></span></a>
+            <a href="#" class="icon-button instagram"   target="_blank"><i class="icon-instagram"></i><span></span></a>
+            <a href="#" class="icon-button youtube"     target="_blank"><i class="icon-youtube-play"></i><span></span></a>
+            <a href="#" class="icon-button google-plus" target="_blank"><i class="icon-google-plus"></i><span></span></a>
+            <br><br>
+        </div>
+        <div class="col s4 m4"></div>
+        <div class="col s4 m4 center-align hide-on-large-only">
+          <br>
+          <img src="equirenta-logo.png" alt="" class="responsive-img">
+          <h6 class="white-text">Equi Renta S.R.L</h6>
+        </div>
+        <div class="col s4 m4"></div>
+
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container center-align">
+            Diseñado por: <a class="brown-text text-lighten-3" href="#">GM Desarrollos</a> 
+      </div>            
+    </div>
+  </footer>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
+</html>
+
+        
